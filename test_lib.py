@@ -34,9 +34,9 @@ df = pd.DataFrame(data)
 def test_unique_values():
     # Test the unique_values function
     unique_education = unique_values(df, "Education")
-    assert unique_education == [
+    assert (unique_education == [
         "Bachelor" "Master" "PhD"
-    ], "Unique values do not match expected values"
+    ]).all(), "Unique values do not match expected values"
 
 
 def test_value_counts():
