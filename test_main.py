@@ -46,7 +46,7 @@ def test_value_counts():
         value_counts_education["Master"] == 3
     ), "Value counts do not match expected values"
 
-
-test_PDdescribe()
-test_unique_values()
-test_value_counts()
+if __name__ == '__main__':
+    test_PDdescribe()
+    test_unique_values()
+    test_value_counts()
