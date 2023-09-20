@@ -38,14 +38,12 @@ My project utilizes the "Auto" dataset for data visualizations, and the "Nba" da
 - ipykernel
 
 ## Lib.py
+The lib.py script contains the function definitions used in both main.py, desc_stats.ipynb and all the test scripts.
 
-
-
+## Workflow
 <p align = "center"><img width="1000" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/Av281_Mini_project_2/blob/main/Images_for_mini_project_2/Screenshot%202023-09-13%20at%204.42.48%20PM.png"></p>
 
-Then run the command 'make install'
 
-followed by 'make test'
 
 ### Testing
 <p align = "center"><img width="1000" alt="Screenshot 2023-09-11 at 11 53 56 AM" src="https://github.com/nogibjj/Av281_Mini_project_2/blob/main/Images_for_mini_project_2/Screenshot%202023-09-13%20at%204.46.20%20PM.png"></p>
