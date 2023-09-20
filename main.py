@@ -1,21 +1,23 @@
+from lib import (
+    PDdescribe,
+    unique_values,
+    value_counts,
+)
 import pandas as pd
-import matplotlib.pyplot as plt
+import numpy as np
 
-
-def PDdescribe(filename):
-    """function which returns descriptive stats about input data"""
-    df = pd.read_csv(filename)
-    return df.describe()
-
-
-results = PDdescribe("nba.csv")
-
-print(results)
-
-nba = pd.read_csv("nba.csv")
-plt.figure(figsize=(10, 8))
-plt.scatter(nba["Age"], nba["Weight"])
-plt.title("NBA player Weight vs Age")
-plt.xlabel("Height")
-plt.ylabel("Age")
-plt.show(block=True)
+testing_data = pd.read_csv("Auto.csv")
+print(
+    "First, the functions PDdescribe, unique_values, value_counts, plot_histogram, plot_boxplot, plot_correlation_heatmap, and plot_countplot are imported from lib.py to be used in this notebook. Then, the testing data from Auto.csv is read in as a pandas dataframe, with the first few rows shown below."
+)
+print(testing_data.head())
+print("")
+print("summary statistics from Auto.csv:")
+print(PDdescribe("Auto.csv"))
+print("")
+print("unique values of cylinders column are:")
+print(unique_values(testing_data, "cylinders"))
+print("")
+print("counts of cylinders values:")
+print(value_counts(testing_data, "cylinders"))
+print("")
