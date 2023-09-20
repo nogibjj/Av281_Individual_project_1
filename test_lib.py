@@ -13,7 +13,6 @@ from lib import (
     plot_countplot,
 )
 import pandas as pd
-import matplotlib.pyplot as plt
 
 
 def test_PDdescribe():
