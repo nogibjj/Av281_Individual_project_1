@@ -47,7 +47,7 @@ test_unique_values()
 test_value_counts()
 
 # run data visualization code
-test_data = pd.read_csv("nba.csv")
+testing_data = pd.read_csv("nba.csv")
 
 plot_countplot(testing_data, "Position")
 plot_histogram(testing_data, "Weight")
