@@ -64,6 +64,15 @@ The lib.py script contains the function definitions used in both main.py, desc_s
 ### Run: Descriptive Stats (main.py)
 <p align = "center"><img width="1000" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/Av281_Individual_project_1/blob/main/images_for_Individual_project_1/main.png"></p>
 
-### Data Visualizations
-<p align = "center"><img width="1000" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/Av281_Mini_project_2/blob/main/Images_for_mini_project_2/Screenshot%202023-09-17%20at%206.07.41%20PM.png"></p>
+## Data Visualizations
+#### Count of each unique value in a specified column:
+<p align = "center"><img width="800" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/Av281_Individual_project_1/blob/main/images_for_Individual_project_1/count.png"></p>
 
+#### Boxplot of a specified column:
+<p align = "center"><img width="800" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/Av281_Individual_project_1/blob/main/images_for_Individual_project_1/box.png"></p>
+
+#### Histogram of a specified column:
+<p align = "center"><img width="800" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/Av281_Individual_project_1/blob/main/images_for_Individual_project_1/hist.png"></p>
+
+#### Heatmap of correlation matrix of dataset:
+<p align = "center"><img width="800" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/Av281_Individual_project_1/blob/main/images_for_Individual_project_1/heatmap.png"></p>
