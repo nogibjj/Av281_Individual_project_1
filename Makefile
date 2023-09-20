@@ -19,6 +19,8 @@ lint:
 	nbqa ruff *.ipynb
 	ruff check *.py 
 
+run:
+	#Run main script
+	python3 main.py
 
-		
-all: install test format lint #deploy
+all: install test format lint run
