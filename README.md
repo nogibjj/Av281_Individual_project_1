@@ -46,28 +46,24 @@ My project utilizes the "Auto.csv" dataset for data visualizations, and the "nba
 The lib.py script contains the function definitions used in both main.py, desc_stats.ipynb and all the test scripts.
 
 ## Workflow
-<p align = "center"><img width="1000" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/Av281_Mini_project_2/blob/main/Images_for_mini_project_2/Screenshot%202023-09-13%20at%204.42.48%20PM.png"></p>
 
 
 
 ### Testing
-<p align = "center"><img width="1000" alt="Screenshot 2023-09-11 at 11 53 56 AM" src="https://github.com/nogibjj/Av281_Mini_project_2/blob/main/Images_for_mini_project_2/Screenshot%202023-09-13%20at%204.46.20%20PM.png"></p>
-
-then 'make format'
+<p align = "center"><img width="1000" alt="Screenshot 2023-09-11 at 11 53 56 AM" src="https://github.com/nogibjj/Av281_Individual_project_1/blob/main/images_for_Individual_project_1/test_1.png"></p>
+<p align = "center"><img width="1000" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/Av281_Individual_project_1/blob/main/images_for_Individual_project_1/test_2.png"></p>
 
 ### Formatting
-<p align = "center"><img width="407" alt="Screenshot 2023-09-11 at 11 53 56 AM" src="https://github.com/nogibjj/Av281_Mini_project_2/blob/main/Images_for_mini_project_2/Screenshot%202023-09-13%20at%204.46.45%20PM.png"></p>
+<p align = "center"><img width="1000" alt="Screenshot 2023-09-11 at 11 53 56 AM" src="https://github.com/nogibjj/Av281_Individual_project_1/blob/main/images_for_Individual_project_1/format.png"></p>
 
-followed my 'make lint'
 
 ### Linting
-<p align = "center"><img width="417" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/Av281_Mini_project_2/blob/main/Images_for_mini_project_2/Screenshot%202023-09-13%20at%204.47.07%20PM.png"></p>
+<p align = "center"><img width="1000" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/Av281_Individual_project_1/blob/main/images_for_Individual_project_1/lint.png"></p>
 
-then, using the line 'python3 main.py', descriptive statistics are printed as shown below:
 
-### Descriptive Stats
-<p align = "center"><img width="417" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/Av281_Mini_project_2/blob/main/Images_for_mini_project_2/Screenshot%202023-09-13%20at%204.47.33%20PM.png"></p>
+### Run: Descriptive Stats (main.py)
+<p align = "center"><img width="1000" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/Av281_Individual_project_1/blob/main/images_for_Individual_project_1/main.png"></p>
 
-### Data Visualization
+### Data Visualizations
 <p align = "center"><img width="1000" alt="Screenshot 2023-09-11 at 11 55 09 AM" src="https://github.com/nogibjj/Av281_Mini_project_2/blob/main/Images_for_mini_project_2/Screenshot%202023-09-17%20at%206.07.41%20PM.png"></p>
 
