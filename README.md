@@ -1,5 +1,7 @@
-# Mini Project 2 for IDS706 fall 2023
-Python template to be used for GitHub codespaces
+# Continuous Integration using GitHub Actions of Python Data Science Project
+
+My project utilizes the "Auto" dataset for data visualizations, and the "Nba" dataset for testing purposes. The goal of this project is to test and display the exploratory data analysis functions in lib.py created using pandas. The github actions workflow makes sure that upon each push, the code undergoes linting, formatting, installing dependencies, and testing of the entire project (python script and Jupyter notebook).
+
 contains:
 
 * `Makefile`
