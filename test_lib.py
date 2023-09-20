@@ -39,7 +39,7 @@ def test_unique_values():
     ])).all(), "Unique values do not match expected values"
 
 
-def test_value_counts(df):
+def test_value_counts():
     # Test the value_counts function
     data = {
         "Age": [25, 30, 35, 40, 45, 30],
