@@ -1,6 +1,11 @@
 # Continuous Integration using GitHub Actions of Python Data Science Project
+[![OnInstall](https://github.com/nogibjj/Av281_Individual_project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Av281_Individual_project_1/actions/workflows/install.yml)
+[![Test](https://github.com/nogibjj/Av281_Individual_project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Av281_Individual_project_1/actions/workflows/test.yml)
+[![Format](https://github.com/nogibjj/Av281_Individual_project_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Av281_Individual_project_1/actions/workflows/format.yml)
+[![Lint](https://github.com/nogibjj/Av281_Individual_project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Av281_Individual_project_1/actions/workflows/lint.yml)
+[![Continuous Delivery](https://github.com/nogibjj/Av281_Individual_project_1/actions/workflows/run.yml/badge.svg)](https://github.com/nogibjj/Av281_Individual_project_1/actions/workflows/run.yml)
 
-My project utilizes the "Auto" dataset for data visualizations, and the "Nba" dataset for testing purposes. The goal of this project is to test and display the exploratory data analysis functions in lib.py created using pandas. The github actions workflow makes sure that upon each push, the code undergoes linting, formatting, installing dependencies, and testing of the entire project (python script and Jupyter notebook).
+My project utilizes the "Auto.csv" dataset for data visualizations, and the "nba.csv" dataset for testing purposes. The goal of this project is to test and display the exploratory data analysis functions in lib.py created using pandas. The github actions workflow makes sure that upon each push, the code undergoes linting, formatting, installing dependencies, and testing of the entire project (python script and Jupyter notebook).
 
 ## Contents:
 * Jupyter Notebook with:
