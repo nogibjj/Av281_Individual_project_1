@@ -32,7 +32,7 @@ data = {
 df = pd.DataFrame(data)
 
 
-def test_unique_values():
+def test_unique_values(df):
     # Test the unique_values function
     unique_education = unique_values(df, "Education")
     assert (unique_education == np.array([
@@ -40,7 +40,7 @@ def test_unique_values():
     ])).all(), "Unique values do not match expected values"
 
 
-def test_value_counts():
+def test_value_counts(df):
     # Test the value_counts function
     value_counts_education = value_counts(df, "Education")
     assert (
@@ -49,8 +49,8 @@ def test_value_counts():
 
 
 test_PDdescribe()
-test_unique_values()
-test_value_counts()
+test_unique_values(df)
+test_value_counts(df)
 
 # run data visualization code
 testing_data = pd.read_csv("nba.csv")
