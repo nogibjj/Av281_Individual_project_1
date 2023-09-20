@@ -13,6 +13,7 @@ from lib import (
     plot_countplot,
 )
 import pandas as pd
+import numpy as np
 
 
 def test_PDdescribe():
@@ -34,9 +35,9 @@ df = pd.DataFrame(data)
 def test_unique_values():
     # Test the unique_values function
     unique_education = unique_values(df, "Education")
-    assert (unique_education == [
-        "Bachelor" "Master" "PhD"
-    ]).all(), "Unique values do not match expected values"
+    assert (unique_education == np.array([
+        "Bachelor", "Master", "PhD"
+    ])).all(), "Unique values do not match expected values"
 
 
 def test_value_counts():
