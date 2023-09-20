@@ -32,14 +32,12 @@ df = pd.DataFrame(data)
 def test_unique_values():
     # Test the unique_values function
     unique_education = unique_values(df, 'Education')
-    expected_result = ['Bachelor', 'Master', 'PhD']
     assert len(unique_education) == 3, "Unique values do not match expected values"
 
 def test_value_counts():
     # Test the value_counts function
     value_counts_education = value_counts(df, 'Education')
-    expected_result = {'Bachelor': 2, 'Master': 3, 'PhD': 1}
-    assert len(unique_education) == 3, "Value counts do not match expected values"
+    assert len(value_counts_education) == 3, "Value counts do not match expected values"
 
 test_PDdescribe()
 test_unique_values()
