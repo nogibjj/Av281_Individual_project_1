@@ -7,10 +7,7 @@ import pandas as pd
 
 testing_data = pd.read_csv("Auto.csv")
 print(
-    "First, the functions PDdescribe, unique_values, value_counts, plot_histogram, plot_boxplot, 
-    plot_correlation_heatmap, and plot_countplot are imported from lib.py to be used in this notebook. 
-    Then, the testing data from Auto.csv is read in as a pandas dataframe, with the first few rows 
-    shown below."
+    "Testing data from Auto.csv is read in as a pandas dataframe, with the first few rows shown below."
 )
 print(testing_data.head())
 print("")
