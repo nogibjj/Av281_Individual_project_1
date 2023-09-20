@@ -7,6 +7,9 @@
 
 My project utilizes the "Auto.csv" dataset for data visualizations, and the "nba.csv" dataset for testing purposes. The goal of this project is to test and display the exploratory data analysis functions in lib.py created using pandas. The github actions workflow makes sure that upon each push, the code undergoes linting, formatting, installing dependencies, and testing of the entire project (python script and Jupyter notebook).
 
+## Video Link:
+- https://youtu.be/0_4KWPFAijw
+
 ## Contents:
 * Jupyter Notebook with:
   * Cells that perform descriptive statistics using `Pandas`, with functions from lib.py
